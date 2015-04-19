@@ -1,0 +1,29 @@
+// footer styles
+
+footer{
+	background-color: $container;
+	padding: 15px 1%;
+	margin-top: 50px;
+
+	a{
+	text-decoration: none;
+	font-weight: 500;
+	color: $light-color;
+	display: block;
+	}
+
+	a:hover{
+	color: $primary-color;
+	}
+
+	a:visited{
+	color: $light-color;	
+	}
+
+	.top {
+	display: block;
+	float: right;
+	margin-right: 3%;
+	}
+
+}

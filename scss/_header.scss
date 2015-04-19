@@ -1,0 +1,37 @@
+// header styles
+
+header {
+	background-color: $container;
+	padding: 10px 1%;
+	margin: 0 0 50px 0;
+
+	a{
+	text-decoration: none;
+	font-weight: 500;
+	color: $light-color;
+	display: block;
+	}
+
+	a:hover{
+	color: $primary-color;
+	}
+
+	a:visited{
+	color: $light-color;	
+	}
+
+	.logo {
+	display: block;
+	float: left;
+	margin-left: 3%;
+	}
+
+	.contact {
+	display: block;
+	float: right;
+	margin-right: 3%;
+	}
+
+}
+
+	

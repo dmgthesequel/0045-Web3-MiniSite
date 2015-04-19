@@ -1,0 +1,38 @@
+#container {
+	color: white;
+	margin: 0 auto;
+
+	a {
+	display: block;
+	text-decoration: none;
+	color: $primary-color
+	}
+
+	a:visited {
+	color: $primary-color
+	}
+}
+
+
+.item {
+	width: 280px;
+	border: 2px solid $light-color;
+	margin: 10px;
+	border-radius: 10px;
+	color: $primary-color;
+	margin-bottom: 20px;
+}
+
+.itemWrap {
+	padding: 20px;
+
+	img{
+		width: 240px;
+		margin-bottom: 20px;
+	}
+
+	h4 {
+		margin-bottom: 10px;
+	}
+}
+
